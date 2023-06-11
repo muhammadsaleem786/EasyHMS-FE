@@ -1,0 +1,122 @@
+﻿<div class="tab-pane" id="Charges">
+    <div class="row">
+        <div class="col">
+            <div class="tab-pane active" id="Charges">
+                <div class="col-sm-12 CustomAccordion">
+                    <form [formGroup]="Form1" novalidate (ngSubmit)="ChargeSaveOrUpdate(Form1.valid)">
+                        <ngb-accordion [closeOthers]="true" activeIds="charges-1">
+                            <ngb-panel id="charges-1">
+                                <ng-template ngbPanelTitle>
+                                    <span>
+                                        <img src="../assets/app/media/img/icons/apptime.png" class="img-fluid radius">
+                                        General charges
+                                    </span><i class="icon-chevron-right iconImage"></i>
+                                </ng-template>
+                                <ng-template ngbPanelContent>
+
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>Annual PE</label>
+                                                <input type="text" formControlName="AnnualPE" [(ngModel)]="model.AnnualPE" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>General</label>
+                                                <input type="text" formControlName="General" [(ngModel)]="model.General" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>Medical</label>
+                                                <input type="text" formControlName="Medical" [(ngModel)]="model.Medical" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </ng-template>
+                            </ngb-panel>
+                            <ngb-panel id="charges-2">
+                                <ng-template ngbPanelTitle>
+                                    <span>
+                                        <img src="../assets/app/media/img/icons/history.png" class="img-fluid radius">
+                                        ICU charges
+                                    </span><i class="icon-chevron-right iconImage"></i>
+                                </ng-template>
+                                <ng-template ngbPanelContent>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>ICU charges</label>
+                                                <input type="text" formControlName="ICUCharges" [(ngModel)]="model.ICUCharges" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </ng-template>
+                            </ngb-panel>
+                            <ngb-panel id="charges-3">
+                                <ng-template ngbPanelTitle>
+                                    <span>
+                                        <img src="../assets/app/media/img/icons/history.png" class="img-fluid radius">
+                                        Private charges
+                                    </span><i class="icon-chevron-right iconImage"></i>
+                                </ng-template>
+                                <ng-template ngbPanelContent>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>Exam room</label>
+                                                <input type="text" formControlName="ExamRoom" [(ngModel)]="model.ExamRoom" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>Private Ward</label>
+                                                <input type="text" formControlName="PrivateWard" [(ngModel)]="model.PrivateWard" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>RIP</label>
+                                                <input type="text" formControlName="RIP" [(ngModel)]="model.RIP" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </ng-template>
+                            </ngb-panel>
+                            <ngb-panel id="charges-4">
+                                <ng-template ngbPanelTitle>
+                                    <span>
+                                        <img src="../assets/app/media/img/icons/history.png" class="img-fluid radius">
+                                        Other All charges
+
+                                    </span><i class="icon-chevron-right iconImage"></i>
+                                </ng-template>
+                                <ng-template ngbPanelContent>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <label>Other All charges</label>
+                                                <input type="text" formControlName="OtherAllCharges" [(ngModel)]="model.OtherAllCharges" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </ng-template>
+                            </ngb-panel>
+                        </ngb-accordion>
+                        <div class="modal-footer" *ngIf="ChargeRights.CreateRights">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

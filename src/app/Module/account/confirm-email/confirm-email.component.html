@@ -1,0 +1,62 @@
+<div class="grid-box ng-scope" ng-controller="confirmEmailController">
+    <div class="col-xs-offset-3 col-xs-6 grid shadow-box-t-border margin-t-50">
+        <div class="col-sm-12 text-center">          
+            <span *ngIf="PayrollRegion == 'PK'">
+                <a href="https://www.HMS.com/">
+                    <img src="assets\app\media\img\HMS.png" alt="Alternate Text" style="max-width:140px;">
+                </a>
+
+            </span>
+          
+        </div>
+        <div class="col-sm-12 margin-t-30">
+            <h2 class="padding-l-0"><!--{{Keywords['Key_confirm_Confirmation']}}-->Confirmation Email Sent</h2>
+        </div>
+        <div class="col-sm-12 font-16">
+            <div class="form-group text-danger ng-binding">
+
+            </div>
+            <div class="form-group">
+                Please check your email and confirm your email address by clicking the provided link. This may take few minutes, check your
+                Spam Folder if you can't find the email in your inbox.
+                <!--{{Keywords['Key_confirm_Pleasecheck']}}-->
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default btn-blue" data-toggle="modal" data-target="#myModal"><!--{{Keywords['Key_confirm_ResendEmail']}}-->Resend Email</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade in" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa fa-times-circle"></i>
+                    </button>
+                </div>
+                <form [formGroup]="Form1" novalidate (ngSubmit)="ResendEmail(Form1.valid)">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="grid-heading margin-t-0"><!--{{Keywords['Key_confirm_ResendEmail']}}-->Resend Email</h3>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input class="form-control md-input" formControlName="Email" type="text" maxlength="250" placeholder="Email" [(ngModel)]="model.Email">
+                                <small *ngIf="Form1.controls.Email.hasError('required')  && submitted">
+                                    This value is required.
+                                </small>
+                                <small *ngIf="Form1.controls.Email.hasError('pattern') && !Form1.controls.Email.hasError('required')">
+                                    Please enter valid email.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" #closeModal><!--{{Keywords['Key_Common_Cancel']}}-->Cancel</button>
+                            <button class="btn btn-red" type="submit"><!--{{Keywords['Key_confirm_Send']}}-->Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

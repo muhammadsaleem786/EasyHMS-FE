@@ -1,0 +1,166 @@
+﻿<div class="tab-pane" id="Billing">
+    <div class="row mt-2">
+        <div class="col-sm-12 text-right">
+            <a class="dropdown-item cursor-pointer" (click)="openInvoiceModal(InvoiceModal)">
+                Print Invoice
+            </a>
+            <a class="dropdown-item cursor-pointer" (click)="DischargePatient()">
+                Generate Invoice
+            </a>
+        </div>
+        <div class="col-sm-12 table_border">
+            <div class="TableView">
+                <div class="dataTables_wrapper form-inline dt-uikit md-processed col-sm-12 mt-3 p-0">
+                    <div class="uk-overflow-container col-sm-12 p-0">
+                        <table id="dt_tableTools" class="uk-table table" cellspacing="0" style="width: 100%;">
+                            <thead class="grid-header">
+                                <tr>
+                                    <th>Bill No </th>
+                                    <th> Doctor </th>
+                                    <th> Date </th>
+                                    <th>Annual PE</th>
+                                    <th>General</th>
+                                    <th>Medical </th>
+                                    <th>ICU charges</th>
+                                    <th>Exam room </th>
+                                    <th>Private Ward </th>
+                                    <th>RIP </th>
+                                    <th>Other All charges</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let item of BillingList">
+                                    <td>
+                                        {{item.ID}}
+                                    </td>
+                                    <td>
+                                        {{item.DoctorName}}
+                                    </td>
+                                    <td>
+                                        {{item.Date |date: 'MM/dd/yyyy'}}
+                                    </td>
+                                    <td>{{item.AnnualPE}} </td>
+                                    <td>{{item.General}} </td>
+                                    <td>{{item.Medical}}</td>
+                                    <td>{{item.ICUCharges}}</td>
+                                    <td>{{item.ExamRoom}}</td>
+                                    <td>{{item.PrivateWard}}</td>
+                                    <td>{{item.RIP}}</td>
+                                    <td>{{item.OtherAllCharges}}</td>
+                                    <td>{{item.total}}</td>
+                                </tr>
+                                <tr [hidden]="!(BillingList.length == 0)" style="background:#fff;">
+                                    <td [attr.colspan]="13" align="center">
+                                        <p><img src="../../assets/app/media/img/noResult.gif" class="NoDataImg" /></p>
+                                        <strong class="nodateFound">No record found</strong>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<ng-template #InvoiceModal let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <img src="../assets/app/media/img/icons/adddoc.png" class="img-fluid icon">Invoice
+        </h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body Invoice_Template" id="printBill-section">
+        <div class="Invoice_template">
+            <header class="clearfix">
+
+                <div id="logo" *ngIf="InvoiceCompanyInfo.CompanyLogo != '' && InvoiceCompanyInfo.CompanyLogo != null ">
+                    <img [src]="InvoiceCompanyInfo.CompanyLogo" class="img-fluid radius" style="max-width: 100px;">
+                </div>
+                <div id="logo" *ngIf="InvoiceCompanyInfo.CompanyLogo =='' || InvoiceCompanyInfo.CompanyLogo == null ">
+                    <img src="../assets/app/media/img/icons/doctor-logo.png" class="img-fluid radius" style="max-width: 100px;">
+                </div>
+                <div id="company">
+                    <h2 class="name">{{InvoiceCompanyInfo.CompanyName}}</h2>
+                    <div>{{InvoiceCompanyInfo.CompanyAddress}}</div>
+                    <div>{{InvoiceCompanyInfo.CompanyPhone}}</div>
+                    <div><a href="mailto:company@example.com">{{InvoiceCompanyInfo.CompanyEmail}}</a></div>
+                </div>
+
+            </header>
+            <main>
+                <div id="details" class="clearfix">
+                    <div id="client">
+                        <div class="to">INVOICE TO:</div>
+                        <h2 class="name">{{InvoiceCompanyInfo.PatientName}}</h2>
+                        <div class="address">{{InvoiceCompanyInfo.PatientAddress}}</div>
+                        <div class="email"><a href="mailto:john@example.com">{{InvoiceCompanyInfo.PatientEmail}}</a></div>
+                    </div>
+                    <div id="invoice">
+                        <h1>INVOICE-{{InvoiceCompanyInfo.invoiceNo}}</h1>
+                        <div class="date">Date of Invoice: {{InvoiceCompanyInfo.BillDate |date: 'MM/dd/yyyy'}}</div>
+                        <div class="date">Due Date: 30/06/2014</div>
+                    </div>
+                </div>
+                <table cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th class="no">#</th>
+                            <th class="desc">Item</th>
+                            <th class="unit text-right">UNIT PRICE</th>
+                            <th class="total text-right">TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let b of InvoiceBillModel">
+                            <td class="no">{{b.ID}}</td>
+                            <td class="desc">{{b.ServiceName}}</td>
+                            <td class="unit"> {{b.Price}}</td>
+                            <td class="total"> {{b.Price}}</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="1">SUBTOTAL</td>
+                            <td> {{SubTotal}}</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="1">Discount</td>
+                            <td> {{TotalDiscount}}</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="1">GRAND TOTAL</td>
+                            <td> {{Total}}</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div id="thanks">Thank you!</div>
+                <div id="notices">
+                    <div>NOTICE:</div>
+                    <div class="notice">A finance charge of 1.5% will be made on unpaid balances after 30 days.</div>
+                </div>
+            </main>
+            <footer>
+                {{valueForUser.RepotFooter}}
+            </footer>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="modal.dismiss('Cross click')">Close</button>
+        <button type="button" class="btn btn-danger" [useExistingCss]="true" data-dismiss="modal" printSectionId="printBill-section" ngxPrint>Print</button>
+    </div>
+
+</ng-template>

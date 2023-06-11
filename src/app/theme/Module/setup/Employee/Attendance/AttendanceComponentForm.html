@@ -1,0 +1,84 @@
+﻿<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-md">
+        <form [formGroup]="Form1" novalidate (ngSubmit)="SaveOrUpdate(Form1.valid)" (click)="IsModalClick()">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="grid-heading text-color-skyblue font-weight-400 no-padding">{{model.ID ? 'Edit' : 'Add New'}} Attendance</h3>
+                    <button type="button" class="close mt-modal-close" (click)="Close()" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Employee*</label>
+                                <input type="text" [(ngModel)]="model.EmployeeID" formControlName="EmployeeID" [hidden]="true" />
+                                <input type="text" [(ngModel)]="DisplayMember" [ngModelOptions]="{standalone : true}" required (keyup)="FilterEmployees()" [attr.disabled]="model.ID" (change)="MatchesFound()" class="form-control" placeholder="Search Employee" />
+                                <small *ngIf="Form1.controls.EmployeeID.hasError('required') && submitted">
+                                    This value is required.
+                                </small>
+                                <div class="suggestions" *ngIf="EmpfilteredList.length > 0">
+                                    <ul style="list-style:none">
+                                        <li *ngFor="let item of EmpfilteredList">
+                                            <a (click)="SelectItem(item)">{{item.FirstName}}  {{item.LastName}}</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="suggestions" *ngIf="EmpfilteredList?.length <= 0 && !IsEmpFound && !Form1.controls.EmployeeID.hasError('required')">
+                                    <p>No search result match</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Time In* (e.g. 09:00 AM)</label>
+                                <input type="time" formControlName="TimeIn" [(ngModel)]="TimeIn" class="form-control">
+                                <!--<Datetime-Component formControlName="TimeIn" (DateChangeValue)="onTimeInChanged($event)" [(ngModel)]="model.TimeIn">
+                                </Datetime-Component>-->
+                                <small *ngIf="Form1.controls.TimeIn.hasError('required') && submitted">
+                                    This value is required.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Status*</label>
+                                <select formControlName="StatusID" [(ngModel)]="model.StatusID" class="form-control">
+                                    <option *ngFor="let item of AttendanceStatusList" [value]="item.ID">
+                                        {{item.Value}}
+                                    </option>
+                                </select>
+                                <small *ngIf="Form1.controls.StatusID.hasError('required') && submitted">
+                                    This value is required.
+                                </small>
+                            </div>
+                            <!--<input type="number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" title="three leter" name="itemConsumption" />-->
+                            <div class="form-group">
+                                <label>Time Out* (e.g. 06:00 PM)</label>
+                                <input type="time" formControlName="TimeOut" [(ngModel)]="TimeOut" class="form-control">
+                                <!--<input type="time" formControlName="TimeOut" [(ngModel)]="model.TimeOut" />-->
+                                <!--<Datetime-Component formControlName="TimeOut" (DateChangeValue)="onTimeOutChanged($event)" [(ngModel)]="model.TimeOut">
+                                </Datetime-Component>-->
+                                <small *ngIf="Form1.controls.TimeOut.hasError('required') && submitted">
+                                    This value is required.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Date*</label>
+                                <Datetime-Component formControlName="AttendDate" [(ngModel)]="AttendDate">
+                                </Datetime-Component>
+                                <small *ngIf="Form1.controls.AttendDate.hasError('required') && submitted">
+                                    This value is required.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-payday-cancel" data-dismiss="modal" #closeModal (click)="Close()">Cancel</button>
+                    <button id="saveSchedule" type="submit" class="btn btn-blue">Save</button>
+                    <button type="button" class="btn btn-blue btnDel pull-left" *ngIf="model.ID" (click)="Delete()">Delete</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

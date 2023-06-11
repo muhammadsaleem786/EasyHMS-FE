@@ -1,0 +1,169 @@
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\ApplicationInsights.config
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\csc.exe
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\vbc.exe
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll.config
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.pdb
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.Web.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\QRCoder.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.Web.xml
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.dll
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.pdb
+C:\Working Projects\SmartPeopleQlik\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.csprojResolveAssemblyReference.cache
+E:\ERP\ERPISTO.Web.UI\bin\ApplicationInsights.config
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\csc.exe
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\System.Collections.Immutable.dll
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\System.Reflection.Metadata.dll
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\vbc.exe
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe
+E:\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe.config
+E:\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll.config
+E:\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll
+E:\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.pdb
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ERP\ERPISTO.Web.UI\bin\QRCoder.dll
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.xml
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.xml
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.xml
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.xml
+E:\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.csprojResolveAssemblyReference.cache
+E:\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.dll
+E:\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.pdb
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\ApplicationInsights.config
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\csc.exe
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\System.Collections.Immutable.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\vbc.exe
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe.config
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll.config
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.pdb
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\QRCoder.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.xml
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.xml
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.xml
+D:\Working Project\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working Project\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.csprojResolveAssemblyReference.cache
+D:\Working Project\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.dll
+D:\Working Project\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.pdb
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\ApplicationInsights.config
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\csc.exe
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\vbc.exe
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll.config
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.pdb
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\QRCoder.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERPISTO\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.pdb
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\ApplicationInsights.config
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\csc.exe
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\vbc.exe
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll.config
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\ERPISTO.Web.UI.pdb
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\QRCoder.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.Web.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.dll
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.pdb
+C:\Users\MuhammadSaleem\Desktop\test\ERP\ERPISTO.Web.UI\obj\Debug\ERPISTO.Web.UI.csprojResolveAssemblyReference.cache

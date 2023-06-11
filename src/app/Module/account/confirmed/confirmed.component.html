@@ -1,0 +1,24 @@
+<div>
+    <div class="col-xs-offset-3 col-xs-6 grid-box grid shadow-box-t-border margin-t-50">
+        <div class="col-sm-12 grid">
+            <div class="row no-padding-lr">
+                <div class="col-sm-12 text-center">
+                    <span *ngIf="PayrollRegion=='PK'">
+                        <a href="https://www.HMS.com/">
+                            <img class="nav-logo" src="assets\app\media\img\HMS.png" alt="Alternate Text">
+                        </a>
+                    </span>
+
+                </div>
+                <div class="col-sm-12 margin-t-30">
+                    <h2 class="padding-l-0"><strong>{{Keywords['Key_confirm_Confirmed']}}</strong></h2>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        {{Keywords['Key_confirm_Thank']}}.{{Keywords['Key_confirm_Pleaseclick']}} <a routerLink="/login"> {{Keywords['Key_company_here']}} </a> {{Keywords['Key_company_toLogin']}}.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
